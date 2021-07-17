@@ -1,2 +1,2 @@
-# kubernetes
+# K8S
 Kubernetes playground
