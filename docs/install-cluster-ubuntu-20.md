@@ -107,4 +107,19 @@ kubectl get nodes
 kubectl get cs
 ```
 
+
+##### Install Nginx images on K8S:
+
+```
+kubectl create deploy nginx --image nginx
+
+kubectl expose deploy nginx --port 80 --type NodePort
+```
+
+```
+kubectl get svc
+```
+
+
+
 Have Fun!!
